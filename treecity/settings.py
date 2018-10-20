@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['localhost', 'citytree.herokuapp.com', 'treecity.ml', 'www.tree
 # Application definition
 
 INSTALLED_APPS = [
+    'channels',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app_city',
+    'app_empresa',
+    'app_prefeitura',
 ]
 
 MIDDLEWARE = [
@@ -143,3 +146,16 @@ if DEBUG == False:
     STATIC_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)
     STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
     DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+#CHANNELS
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
+}
+
+ASGI_APPLICATION = 'treecity.routing.application'
