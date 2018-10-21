@@ -10,12 +10,11 @@ We are from :heart: *Maringá*
 # How To
 
 Create a *.env* archive
-
-'''
+```python
 SECRET_KEY=
 DEBUG =
 DISABLE_COLLECTSTATIC=
-'''
+```
 
 # Next Step
 
