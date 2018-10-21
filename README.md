@@ -15,11 +15,22 @@ SECRET_KEY=
 DEBUG =
 DISABLE_COLLECTSTATIC=
 ```
-2. Install the requirements.txt
+2. Install the requirements.txt **use venv in your ide or manually [See this](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/)
 ```
 pip install -r requirements.txt
 ```
-
+3. Make initial migrations and migrate to database if you want test in local server
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+4. If you go deploy on your Heroku ACC just fork this project and change the step 3 for step 4, before install the Heroku CLI and update
+```
+heroku login
+heroku config:push -a *yourappname*
+heroku config // for test config
+heroku run python manage.py migrate
+```
 # Next Step
 
 **The system is still not functional, only the development and deploy environment was created and model. And an initial database model with some modifications within DjangoAdmin were performed.**
