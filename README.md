@@ -9,11 +9,15 @@ We are from :heart: *Maringá*
 
 # How To
 
-Create a *.env* archive
+1. Create a *.env* archive
 ```python
 SECRET_KEY=
 DEBUG =
 DISABLE_COLLECTSTATIC=
+```
+2. Install the requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 # Next Step
