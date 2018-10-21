@@ -1,7 +1,7 @@
 # TreeCity
 # Team TreeCity
 
-**Propose:** Who takes care of the trees of our planets? Legally we may not be responsible for them in most cases, but we can do more, because they are responsible for us. We are a team with the purpose of uniting three spheres present in our community, with a common mission: to save the trees of our planet.
+**Propose:** Who takes care of the trees of our planet? Legally we may not be responsible for them in most cases, but we can do more, because they are responsible for us. We are a team with the purpose of uniting three spheres present in our community, with a common mission: to save the trees of our planet.
 
 **Develop:** (System + Landing Page) designed and prepared to be developed in Python using a Framework (Django) with direct deploy in Heroku.
 
