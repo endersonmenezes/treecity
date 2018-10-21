@@ -1,9 +1,92 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-      <div class="starter-template">
-          <h1>oi</h1>
+<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>NOSSA MISSÃO</h2>
+				</header>
+				<p>Nós da TreeCity desejamos unir os três polos que consideramos fundamentais em uma sociedade, as pessoas, o poder público e a iniciativa privada.</p>
+				<footer>
+					<a href="#first" class="button style2 scrolly">COMO?</a> <a href="/admin/" class="button style2 scrolly">ACESSAR SISTEMA</a>
+				</footer>
+			</section>
 
+<!-- Feature 1 -->
+			<article id="first" class="container box style1 right">
+				<a href="#" class="image fit"><img src="" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>O PODER<br />
+						PÚBLICO</h2>
+					</header>
+					<p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
+				</div>
+			</article>
 
-      </div>
+		<!-- Feature 2 -->
+			<article class="container box style1 left">
+				<a href="#" class="image fit"><img src="" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>A INICIATIVA<br />
+						PRIVADA</h2>
+					</header>
+					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article class="container box style2">
+				<header>
+					<h2>A SOCIEDADE</h2>
+					<p>Justo phasellus et aenean dignissim<br />
+					placerat cubilia purus lectus.</p>
+				</header>
+				<div class="inner gallery">
+					<div class="row gtr-0">
+						<div class="col-3 col-12-mobile"><a href="" class="image fit"><img src="" alt="" title="Ad infinitum" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="" class="image fit"><img src="" alt="" title="Dressed in Clarity" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="" class="image fit"><img src="" alt="" title="Raven" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="" class="image fit"><img src="" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
+					</div>
+					<div class="row gtr-0">
+						<div class="col-3 col-12-mobile"><a href="" class="image fit"><img src="" alt="" title="Cherish" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="" class="image fit"><img src="" alt="" title="Different." /></a></div>
+						<div class="col-3 col-12-mobile"><a href="" class="image fit"><img src="" alt="" title="History was made here" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="" class="image fit"><img src="" alt="" title="People come and go and walk away" /></a></div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article class="container box style3">
+				<header>
+					<h2>Gostou? Quer estar entre os primeiros a testar?</h2>
+					<p>Entraremos em contato em breve!</p>
+				</header>
+				<form method="post" action="#">
+					<div class="row gtr-50">
+						<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
+						<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
+						<div class="col-12">
+							<ul class="actions">
+								<br><li><input type="submit" value="ENTRAR NA LISTA" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</article>
+
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+			</ul>
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; OpenSource ♥</li><li>Desejo contribuir! <a href="https://github.com/endersonmenezes/treecity"><i class="fab fa-github-alt"></i> GitHub</a></li>
+				</ul>
+			</div>
+		</section>
 {% endblock %}
