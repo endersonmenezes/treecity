@@ -1,7 +1,7 @@
 # TreeCity
 # Team TreeCity
 
-**Propose:** Who takes care of the trees of our planet? Legally we may not be responsible for them in most cases, but we can do more, because they are responsible for us. We are a team with the purpose of uniting three spheres present in our community, with a common mission: to save the trees of our planet.
+**Propose:** Who takes care of the trees of our planet? Even if legally the citizen is not responsible for environmental preservation, especially urban, it can and should be shared. We are a team with the objective of uniting three important spheres with focus on preservation, being the community, public and private with a single mission: to save the trees of our planet. Our solution condemns public power, empowers the image of private initiative and, more importantly, we create a common sense of social and environmental responsibility in the community. 
 
 **Develop:** (System + Landing Page) designed and prepared to be developed in Python using a Framework (Django) with direct deploy in Heroku.
 
